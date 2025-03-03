@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "esef"
+version = "0.0.1"
+authors = [
+  { name="Franz X. Mohr", email="franz.x.mohr@outlook.com"},
+]
+description = "Downloading and processing ESEF data"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/franzmohr/esef"
+Issues = "https://github.com/franzmohr/esef/issues"
