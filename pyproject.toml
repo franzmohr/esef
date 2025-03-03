@@ -17,6 +17,10 @@ classifiers = [
 ]
 license = "MIT"
 license-files = ["LICENSE"]
+dependencies = [
+  "polars",
+  "requests",
+]
 
 [project.urls]
 Homepage = "https://github.com/franzmohr/esef"
