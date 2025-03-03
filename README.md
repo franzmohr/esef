@@ -21,7 +21,7 @@ After installation, you can use `esef` to download data from https://filings.xbr
 ### Application 1: Downloading Report Packages
 
 ```python
-from esef import esef
+import esef
 
 # Set root direcetory, where all the data should be stored
 dl_folder = "/path/to/data/lake"
